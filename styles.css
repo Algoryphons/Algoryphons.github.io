@@ -67,15 +67,14 @@ main {
   display: flex;
 }
 
+#start_div #Algoryphons_header {
+  margin-left: auto;
+}
+
 #start_div #small_wings_2 {
-  margin-right: auto;
+  margin-left: auto;
 }
 
-
-
-#info {
-  margin-right: auto;
-}
 
 footer {
   background-color: #eee;
