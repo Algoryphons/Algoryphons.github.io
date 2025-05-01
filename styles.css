@@ -1,28 +1,86 @@
+@font-face {
+  font-family: 'archivo';
+  src: url(fonts/Archivo-SemiBold.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+  font-family: archivo, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0D132D;
+  color: #F6D28E;
+}
+
+#theme_logo_img {
+  margin-bottom: -10px;
+}
+
+#headerDiv {
+  font-family: archivo;
+  background-color: white;
+  color: black;
+  width: 100%;
+
+  display: flex;
+}
+
+#headerDiv #logo {
+  padding: 10px;
+}
+
+#headerDiv #buttons {
+  margin-left: auto;
+}
+
+#headerDiv #insta {
+  margin-left: auto;
+}
+
+#headerDiv a {
+  color: white;
+  background-color: #0D132D;
+  padding: 5px;
+}
+
+#headerDiv a:hover {
+  color: black;
+  background-color: #F6D28E;
+  text-decoration: underline;
+}
+
+#headerDiv #logo a {
+  background-color: white;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+
+#start_div {
+  font-size: 100px;
+}
+
+#info {
+  margin-right: auto;
+}
+
+footer {
+  background-color: #eee;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: blue;
+  text-decoration: underline;
+}
