@@ -59,12 +59,19 @@ body {
 }
 
 main {
-  text-align: center;
+  width: 100%
 }
 
 #start_div {
   font-size: 100px;
+  display: flex;
 }
+
+#start_div #small_wings_2 {
+  margin-right: auto;
+}
+
+
 
 #info {
   margin-right: auto;
