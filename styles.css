@@ -20,13 +20,9 @@ body {
   footer {
     background-color: #eee;
     text-align: center;
-    padding: 1rem;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
-  a {
-    color: #333;
   }
   
