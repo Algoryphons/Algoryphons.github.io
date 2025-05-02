@@ -8,12 +8,22 @@ a {
   color: black;
 }
 
+img{
+  color: black
+}
+
 body {
   font-family: archivo, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #0D132D;
   color: #F6D28E;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 #theme_logo_img {
@@ -25,6 +35,7 @@ body {
   background-color: white;
   color: black;
   width: 100%;
+  font-size: 25px;
 
   display: flex;
 }
@@ -58,30 +69,47 @@ body {
   text-decoration: none;
 }
 
-main {
-  width: 100%
-}
-
 #start_div {
-  font-size: 100px;
-  display: flex;
+  font-size: 85px;
+  text-align: center;
 }
 
-#start_div #Algoryphons_header {
-  margin-left: auto;
+#team_number {
+  font-size: 50px;
+  margin-top: -125px;
+  color: white;
 }
 
+#start_div #wing_segment {
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+#start_div #small_wings_1 {
+  float: left;
+}
 #start_div #small_wings_2 {
-  margin-left: auto;
+  float: right;
 }
 
+#eg_photos{
+  background-color: white;
+  margin-top: 250px;
+  text-align: center;
+}
+#eg_photos img {
+  width: 25%;
+  height: auto;
+  padding-left: 15px;
+  padding-top: 10px;
+}
 
 footer {
   background-color: #eee;
   color: black;
   text-align: center;
   padding: 10px;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
