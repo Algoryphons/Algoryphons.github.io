@@ -18,7 +18,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0D132D;
-  color: #F6D28E;
 }
 
 header{
@@ -26,7 +25,10 @@ header{
   width: 100%;
   top: 0;
 }
+#Algoryphons_header {
+  color: #F6D28E;
 
+}
 #theme_logo_img {
   margin-bottom: -10px;
 }
@@ -97,6 +99,7 @@ header{
 #eg_photos{
   background-color: white;
   margin-top: 250px;
+  font-size:xx-large;
   text-align: center;
 }
 #eg_photos img {
