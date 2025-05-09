@@ -116,6 +116,7 @@ header{
 
 #align_center{
   text-align: center;
+  width: auto;
 }
 
 #team_section_header {
@@ -149,6 +150,10 @@ header{
   background-color: #0D132D;
   color: white;
   border-radius: 10px;
+}
+
+#info_box {
+  font-size: 15px;
 }
 
 footer {
