@@ -104,7 +104,10 @@ header{
 #start_div #small_wings_2 {
   float: right;
 }
-
+#wing_segment a {
+  color: blue;
+  text-decoration: underline;
+}
 #eg_photos{
   background-color: white;
   margin-top: 250px;
@@ -194,14 +197,29 @@ footer a {
     width: 100%;
     top: 0;
   }
+  #small_wings_2{
+    margin-top: -60px;
+    width: 220px;
+    height: 75px;
+    padding-bottom: 30px;
+  }
+  #small_wings_1{
+    margin-top: -60px;
+    width: 220px;
+    height: 75px;
+    padding-bottom: 30px;
+  }
   #logo_img{
     width: 50px
   }
   #Algoryphons_header{
-    font-size: 45px;
+    font-size: 40px;
   }
   #team_number{
     margin-top: -25px;
     font-size: 25px;
+  }
+  #eg_photos_div img {
+    width: 400px;
   }
 }
