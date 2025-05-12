@@ -44,7 +44,7 @@ header{
   background-color: white;
   color: black;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 
   display: flex;
 }
@@ -58,11 +58,11 @@ header{
   text-align: center;
 }
 #row1{
-  padding-bottom: 11px;
+  padding-bottom: 5px;
 }
 
 #row2{
-  padding-bottom: 11px;
+  padding-bottom: 5px;
 }
 
 #row2 a{
@@ -215,6 +215,7 @@ footer a {
     width: 100%;
     top: 0;
   }
+  
   #headerDiv {
     font-family: archivo;
     background-color: white;
@@ -224,7 +225,14 @@ footer a {
   
     display: flex;
   }
+  #buttons {
+    width: 350px;
+  }
   #row1{
+    padding-bottom: 11px;
+  }
+  
+  #row2{
     padding-bottom: 11px;
   }
   #small_wings_2{
