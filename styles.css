@@ -55,28 +55,11 @@ header{
 
 #headerDiv #buttons {
   margin-left: auto;
-  text-align: center;
-}
-#row1{
-  padding-bottom: 5px;
 }
 
-#row2{
-  padding-bottom: 5px;
-}
-
-#row2 a{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 15px;
-}
-
-#row3 a{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 15px;
-}
 
 #headerDiv #insta {
-  margin-left: auto;
+  border-bottom-right-radius: 0px;
 }
 
 #headerDiv a {
