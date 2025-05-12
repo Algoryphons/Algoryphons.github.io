@@ -181,10 +181,27 @@ footer {
   text-align: center;
   padding: 10px;
   bottom: 0;
-  width: 100%;
 }
 
 footer a {
   color: blue;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+  #headerDiv {
+    position: initial;
+    top: auto
+  }
+  #logo_img{
+    width: 50px
+  }
+  #Algoryphons_header{
+    margin-top: 220px;
+    font-size: 50px;
+  }
+  #team_number{
+    margin-top: -25px;
+    font-size: 25px;
+  }
 }
