@@ -192,7 +192,11 @@ footer a {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1194px) {
+/* iphone 600px */
+/* iPad 834px */
+/* iPad Pro 1194px */
+
+@media only screen and (max-width: 600px) {
   header {
     position: initial;
     width: 100%;
@@ -242,6 +246,7 @@ footer a {
   }
   #team_section_header{
     margin-top: 10px;
+    font-size: 75px;
   }
   #member_cell {
     padding-left: 5px;
@@ -250,7 +255,10 @@ footer a {
     background-color: #0D132D;
     color: white;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
+  }
+  #member_cell img {
+    width: 90px;
   }
   #info_box {
     font-size: 10px;
