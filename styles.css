@@ -191,7 +191,7 @@ footer a {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   header {
     position: initial;
     width: 100%;
@@ -199,15 +199,13 @@ footer a {
   }
   #small_wings_2{
     margin-top: -60px;
-    width: 200px;
+    width: 150px;
     height: 75px;
-    padding-bottom: 30px;
   }
   #small_wings_1{
     margin-top: -60px;
-    width: 200px;
+    width: 150px;
     height: 75px;
-    padding-bottom: 30px;
   }
   #logo_img{
     width: 50px
@@ -220,6 +218,6 @@ footer a {
     font-size: 25px;
   }
   #eg_photos_div img {
-    width: 400px;
+    width: 300px;
   }
 }
