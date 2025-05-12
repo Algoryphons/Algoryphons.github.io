@@ -211,12 +211,13 @@ footer a {
   
     display: flex;
   }
-  #row1{
-    padding-bottom: 11px;
+  #headerDiv a {
+    padding: 0px;
+    border-radius: 3px;
   }
-  
-  #row2{
-    padding-bottom: 11px;
+  #headerDiv #insta{
+    padding: 0px;
+    border-radius: 3px;
   }
   #small_wings_2{
     margin-top: -60px;
@@ -250,8 +251,7 @@ footer a {
   }
   #member_cell {
     width:90px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     margin-left: 5px;
     background-color: #0D132D;
     color: white;
