@@ -57,7 +57,6 @@ header{
   margin-left: auto;
 }
 
-
 #headerDiv #insta {
   border-bottom-right-radius: 0px;
 }
@@ -128,7 +127,7 @@ header{
 }
 
 #team_section_header {
-  margin-top: 110px;
+  margin-top: 70px;
   background-color: white;
   width: 100%;
   color: #F6D28E;
@@ -205,10 +204,10 @@ footer a {
     margin-bottom: -5px;
   }
   header #schl_logo_img {
-    width: 35px;
+    width: 30px;
   }
   header #EATON_logo_img {
-    width: 55px;
+    width: 50px;
   }
   header {
     position: initial;
@@ -226,7 +225,15 @@ footer a {
   }
   #headerDiv a {
     padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: -1px;
     border-radius: 3px;
+  }
+  #headerDiv a:hover {
+    color: black;
+    background-color: #F6D28E;
+    text-decoration: none;
   }
   #headerDiv #insta{
     padding: 0px;
@@ -260,11 +267,11 @@ footer a {
   }
   #team_section_header{
     margin-top: 10px;
-    font-size: 75px;
+    font-size: 50px;
   }
   #member_cell {
-    width:90px;
-    padding: 5px;
+    width:75px;
+    padding: 4px;
     margin-left: 5px;
     background-color: #0D132D;
     color: white;
@@ -272,9 +279,12 @@ footer a {
     font-size: 18px;
   }
   #member_cell img {
-    width: 90px;
+    width: 75px;
   }
   #info_box {
     font-size: 10px;
+  }
+  #member_header_div_txt{
+    font-size: 30px;
   }
 }
