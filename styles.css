@@ -289,3 +289,8 @@ footer a {
     font-size: 10px;
   }
 }
+
+/* TODO - IPAD */
+@media only screen and (max-width: 900px) {
+  
+}
