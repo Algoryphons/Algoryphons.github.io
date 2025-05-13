@@ -287,4 +287,7 @@ footer a {
   #member_header_div_txt{
     font-size: 30px;
   }
+  footer {
+    font-size: 10px;
+  }
 }
