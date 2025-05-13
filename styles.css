@@ -190,8 +190,8 @@ footer a {
 }
 
 /* iphone 600px */
-/* iPad 834px */
-/* iPad Pro 1194px */
+/* iPad 900px */
+/* iPad Pro 1200px */
 
 @media only screen and (max-width: 600px) {
   header #logo_img{
