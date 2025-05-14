@@ -176,6 +176,24 @@ header{
   font-size: 15px;
 }
 
+#about_main{
+  text-align: center;
+}
+
+#about_us_header {
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color: #F6D28E;
+  font-size: 50px;
+}
+
+#txt_logo_about_us{
+  margin-top: 100px;
+  width: 1500px;
+}
+
 footer {
   background-color: #eee;
   color: black;
@@ -189,70 +207,11 @@ footer a {
   text-decoration: underline;
 }
 
+
+
 /* iphone 600px */
 /* iPad 900px */
 /* iPad Pro 1200px */
-
-
-/* TODO - IPAD */
-@media only screen and (max-width: 900px) {
-  #headerDiv{
-    font-size: 10px;
-  }
-  header #logo_img{
-    width: 20px;
-  }
-  header #theme_logo_img{
-    width: 20px;
-    margin-bottom: -5px;
-  }
-  header #schl_logo_img {
-    width: 30px;
-  }
-  header #EATON_logo_img {
-    width: 50px;
-  }
-  header {
-    position: initial;
-    width: 100%;
-    top: 0;
-  }
-  #headerDiv a {
-    padding: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: -1px;
-    border-radius: 3px;
-  }
-  #headerDiv a:hover {
-    color: black;
-    background-color: #F6D28E;
-    text-decoration: none;
-  }
-  #headerDiv #insta{
-    padding: 0px;
-    border-radius: 3px;
-  }
-  #Algoryphons_header{
-    font-size: 70px;
-  }
-  #team_number{
-    font-size: 20px;
-    margin-top: -50px;
-  }
-  #small_wings_2{
-    margin-top: -50px;
-
-    width: 250px;
-    height: 50px;
-  }
-  #small_wings_1{
-    margin-top: -50px;
-
-    width: 250px;
-    height: 50px;
-  }
-}
 
 @media only screen and (max-width: 600px) {
   header #logo_img{
@@ -345,5 +304,91 @@ footer a {
   }
   footer {
     font-size: 10px;
+  }
+}
+
+/* TODO - IPAD */
+@media only screen and (max-width: 900px) {
+  #headerDiv{
+    font-size: 10px;
+  }
+  #eg_photos_div img {
+    width: 550px;
+  }
+  header #logo_img{
+    width: 20px;
+  }
+  header #theme_logo_img{
+    width: 20px;
+    margin-bottom: -5px;
+  }
+  header #schl_logo_img {
+    width: 30px;
+  }
+  header #EATON_logo_img {
+    width: 50px;
+  }
+  header {
+    position: initial;
+    width: 100%;
+    top: 0;
+  }
+  #headerDiv a {
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: -1px;
+    border-radius: 3px;
+  }
+  #headerDiv a:hover {
+    color: black;
+    background-color: #F6D28E;
+    text-decoration: none;
+  }
+  #headerDiv #insta{
+    padding: 0px;
+    border-radius: 3px;
+  }
+  #Algoryphons_header{
+    font-size: 70px;
+  }
+  #team_number{
+    font-size: 20px;
+    margin-top: -50px;
+  }
+  #small_wings_2{
+    margin-top: -50px;
+
+    width: 250px;
+    height: 50px;
+  }
+  #small_wings_1{
+    margin-top: -50px;
+
+    width: 250px;
+    height: 50px;
+  }
+
+  #team_section_header{
+    margin-top: 10px;
+    font-size: 50px;
+  }
+  #member_cell {
+    width:150px;
+    padding: 4px;
+    margin-left: 5px;
+    background-color: #0D132D;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  #member_cell img {
+    width: 120px;
+  }
+  #info_box {
+    font-size: 10px;
+  }
+  #member_header_div_txt{
+    font-size: 30px;
   }
 }
