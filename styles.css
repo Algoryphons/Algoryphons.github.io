@@ -191,7 +191,27 @@ header{
 
 #txt_logo_about_us{
   margin-top: 100px;
-  width: 1500px;
+  width: 100%;
+  font-size: large;
+}
+
+#our_mission {
+  color: #F6D28E;
+
+}
+
+#om_header {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+#om_bg {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#om_body {
+  
 }
 
 footer {
