@@ -224,11 +224,7 @@ header{
   font-size: larger;
 }
 
-#oc_a {
-  margin-top: -10px;
-  font-size: 20px;
-  color: black;
-}
+
 
 #value_boxes {
   display: flex;
@@ -348,6 +344,7 @@ footer a {
   }
   #headerDiv a {
     padding: 0px;
+    padding-top: 5px;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: -1px;
