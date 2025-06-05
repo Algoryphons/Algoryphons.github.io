@@ -187,10 +187,16 @@ header{
   text-align: center;
   color: #F6D28E;
   font-size: 50px;
+  text-decoration: underline;
+}
+
+#gif_logo {
+  margin-top: -500px;
+  margin-bottom: -20px;
 }
 
 #txt_logo_about_us{
-  margin-top: 100px;
+  margin-top: 140px;
   width: 100%;
   font-size: large;
 }
@@ -198,11 +204,27 @@ header{
 #abt_content {
   color: white;
   background-color: #0D132D;
+  padding: 5px;
+}
+
+#abt_content_block {
+  background-color: #1E2D68;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: larger;
+}
+
+#oc_a {
+  margin-top: -20px;
+  margin-bottom: -30px;
+  font-size: 30px;
+  color: #1E2D68;
 }
 
 #our_mission {
   color: #F6D28E;
-
 }
 
 #om_header {
