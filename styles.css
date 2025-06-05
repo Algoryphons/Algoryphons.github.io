@@ -188,12 +188,24 @@ header{
   text-align: center;
   color: #F6D28E;
   font-size: 50px;
-  text-decoration: underline;
 }
 
-#gif_logo {
-  margin-top: -500px;
-  margin-bottom: -20px;
+#about_us_header_text {
+  display: flex;
+  justify-content: center;
+}
+
+#abt_us_div {
+  padding-right: auto;
+}
+
+#abt_us_txt_div {
+  background-color: #1E2D68;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  border-radius: 15px;
+  text-decoration: underline;
 }
 
 #txt_logo_about_us{
@@ -217,10 +229,34 @@ header{
 }
 
 #oc_a {
-  margin-top: -20px;
-  margin-bottom: -30px;
-  font-size: 30px;
+  margin-top: -10px;
+  font-size: 20px;
+  color: black;
+}
+
+#value_boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#value_box {
+  width: 300px;
+  background-color: #0D132D;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#value_header {
+  background-color: white;
   color: #1E2D68;
+  border-radius: 5px;
+}
+
+#FIRST_div {
+  margin-bottom: 15px;
 }
 
 #our_mission {
