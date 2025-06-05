@@ -350,6 +350,11 @@ footer a {
   #member_header_div_txt{
     font-size: 30px;
   }
+  #txt_logo_about_us{
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
+  }
 }
 
 
@@ -444,5 +449,10 @@ footer a {
   }
   footer {
     font-size: 10px;
+  }
+  #txt_logo_about_us{
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
   }
 }
