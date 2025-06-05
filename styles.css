@@ -353,6 +353,7 @@ footer a {
 
   #team_section_header{
     margin-top: 10px;
+    padding-top: 0px;
     font-size: 50px;
   }
   #member_cell {
@@ -377,6 +378,22 @@ footer a {
     margin-top: 10px;
     width: 100%;
     font-size: large;
+  }
+  #txt_logo_about_us{
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
+  }
+
+  #gif_logo {
+    margin-top: -200px;
+    margin-bottom: -20px;
+  }
+
+  #oc_a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1E2D68;
   }
 }
 
@@ -450,6 +467,7 @@ footer a {
   }
   #team_section_header{
     margin-top: 10px;
+    padding-top: 0px;
     font-size: 50px;
   }
   #member_cell {
@@ -487,7 +505,6 @@ footer a {
   #oc_a {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 30px;
     color: #1E2D68;
   }
 }
