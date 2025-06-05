@@ -195,10 +195,6 @@ header{
   justify-content: center;
 }
 
-#abt_us_div {
-  padding-right: auto;
-}
-
 #abt_us_txt_div {
   background-color: #1E2D68;
   padding-left: 5px;
@@ -429,6 +425,12 @@ footer a {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #1E2D68;
+  }
+  #value_boxes{
+    display: inline-grid;
+  }
+  #value_box {
+    margin-top: 5px;
   }
 }
 
