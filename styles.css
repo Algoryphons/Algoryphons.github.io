@@ -229,7 +229,6 @@ header{
 #value_boxes {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
   padding: 5px;
 }
 
@@ -344,7 +343,8 @@ footer a {
   }
   #headerDiv a {
     padding: 0px;
-    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 0px;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: -1px;
@@ -412,22 +412,14 @@ footer a {
     width: 100%;
     font-size: large;
   }
-
   #gif_logo {
     margin-top: -200px;
     margin-bottom: -20px;
   }
-
   #oc_a {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #1E2D68;
-  }
-  #value_boxes{
-    display: inline-grid;
-  }
-  #value_box {
-    margin-top: 5px;
   }
 }
 
@@ -462,6 +454,7 @@ footer a {
   }
   #headerDiv a {
     padding: 0px;
+    margin-bottom: 10px;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: -1px;
@@ -540,5 +533,10 @@ footer a {
     margin-top: 0px;
     margin-bottom: 0px;
     color: #1E2D68;
+  }
+
+  #value_box {
+    width: 300px;
+    font-size: 15px;
   }
 }
