@@ -478,4 +478,16 @@ footer a {
     width: 100%;
     font-size: large;
   }
+
+  #gif_logo {
+    margin-top: -200px;
+    margin-bottom: -20px;
+  }
+
+  #oc_a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #1E2D68;
+  }
 }
