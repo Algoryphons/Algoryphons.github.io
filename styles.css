@@ -59,7 +59,12 @@ header{
 }
 
 #headerDiv #buttons {
+  margin: 0px;
+  margin-left: 5px;
+  height: 0px;
   margin-left: auto;
+  flex-wrap: wrap;
+  display: inline-flex;
 }
 
 #headerDiv #insta {
@@ -69,7 +74,8 @@ header{
 #headerDiv a {
   color: white;
   background-color: #0D132D;
-  padding: 5px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 2px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 15px
   
@@ -401,6 +407,10 @@ footer a {
   margin: 5px 5px;
 }
 
+#election {
+  width: 75%;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -427,25 +437,19 @@ footer a {
 
 /* TODO - IPAD */
 @media only screen and (max-width: 900px) {
+  #election {
+    width: 100%;
+  }
+  #about_us_header {
+    margin-top: initial;
+  }
   #headerDiv{
     font-size: 10px;
   }
   #eg_photos_div img {
     width: 550px;
   }
-  header #logo_img{
-    width: 20px;
-  }
-  header #theme_logo_img{
-    width: 20px;
-    margin-bottom: -5px;
-  }
-  header #schl_logo_img {
-    width: 30px;
-  }
-  header #EATON_logo_img {
-    width: 50px;
-  }
+  
   header {
     position: initial;
     width: 100%;
@@ -529,24 +533,29 @@ footer a {
     width: 325px;
   }
 }
+@media only screen and (max-width: 720px) {
 
+  header #logo_img{
+    width: 30px;
+  }
+  header #theme_logo_img{
+    width: 30px;
+    margin-bottom: -10px;
+  }
+  header #schl_logo_img {
+    width: 40px;
+  }
+  header #EATON_logo_img {
+    width: 90px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   #team_vid {
     width: 350px;
   }
-  header #logo_img{
-    width: 20px;
-  }
-  header #theme_logo_img{
-    width: 20px;
-    margin-bottom: -5px;
-  }
-  header #schl_logo_img {
-    width: 30px;
-  }
-  header #EATON_logo_img {
-    width: 50px;
+  #logo{
+    font-size: 12px;
   }
   header {
     position: initial;
@@ -554,13 +563,10 @@ footer a {
     top: 0;
   }
   #headerDiv {
-    font-family: archivo;
-    background-color: white;
-    color: black;
     width: 100%;
     font-size: 15px;
   
-    display: flex;
+    display: initial;
   }
   #headerDiv a {
     padding: 0px;
@@ -648,9 +654,6 @@ footer a {
     width: 300px;
     font-size: 15px;
   }
-  #election {
-    width: 350px;
-  }
   #IDE_logo_main {
     width: 300px;
   }
@@ -662,5 +665,12 @@ footer a {
   }
   #om_header #small_wings_A_IDE{
     width: 75px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  #abt_us_txt_div {
+    margin-top: 30px;
+    font-size: 50px;
   }
 }
