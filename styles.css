@@ -32,8 +32,8 @@ header{
 }
 
 #Algoryphons_header {
-  color: #F6D28E;
-
+  color: #0D132D;
+  margin-bottom: 0px;
 }
 #link_logo {
   padding-left: 2px;
@@ -93,14 +93,12 @@ header{
 
 #team_number {
   font-size: 50px;
-  margin-top: -175px;
-  color: black;
+  color: #F6D28E;
 }
 
 #start_div #wing_segment {
   margin-top: 30px;
   font-size: 25px;
-  color: white;
   text-align: center;
 }
 #start_div #small_wings_1 {
@@ -110,11 +108,17 @@ header{
   float: right;
 }
 #wing_segment a {
-  color: blue;
+  color: #F6D28E;
+}
+#wing_segment a:hover {
   text-decoration: underline;
+}
+#text {
+  color: #1E2D68;
 }
 #start_logo {
   margin-top: -30px;
+  margin-bottom: 35px;
 }
 
 #eg_photos{
@@ -127,13 +131,17 @@ header{
   border: 2px solid white;
 }
 
+#eg_photos #value_header{
+  margin: 5px;
+}
+
 #align_center{
   text-align: center;
   width: auto;
 }
 
 #team_section_header {
-  margin-top: 70px;
+  margin-top: 5px;
   padding-top: 70px;
   background-color: white;
   width: 100%;
@@ -190,7 +198,7 @@ header{
 }
 
 #about_us_header {
-  margin-top: 10px;
+  margin-top: 100px;
   background-color: white;
   width: 100%;
   text-align: center;
@@ -198,21 +206,18 @@ header{
   font-size: 50px;
 }
 
-#about_us_header_text {
-  display: flex;
-  justify-content: center;
-}
 
 #abt_us_txt_div {
-  background-color: #1E2D68;
+  color: #0D132D;
   padding-left: 5px;
   padding-right: 5px;
   margin: 5px;
   border-radius: 15px;
+  font-size: 70px;
 }
 
 #txt_logo_about_us{
-  margin-top: 140px;
+  margin-top: 10px;
   width: 100%;
   font-size: large;
 }
@@ -233,16 +238,15 @@ header{
   font-size: larger;
 }
 
-
-
 #value_boxes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 5px;
 }
 
 #value_box {
-  width: 100%;
+  width: 275px;
   background-color: #0D132D;
   border-radius: 5px;
   margin: 5px;
@@ -265,6 +269,7 @@ header{
 
 #om_header {
   padding-top: 10px;
+  margin-bottom: 10px;
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -275,9 +280,20 @@ header{
   justify-content: center;
   padding: 0px 5px 5px 5px;  
 }
+#our_mission #value_header{
+  margin: 5px 5px 5px 5px;
+  color: #F6D28E;
+  background-color: #0D132D;
+} 
+
+#value_header1{
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+  color: #F6D28E;
+  background-color: #0D132D;
+} 
 
 #A_IDE {
-  width: 100%;
   background-color: #1E2D68;
   color: #F6D28E;
   margin-top: 10px;
@@ -286,10 +302,7 @@ header{
   padding-right: 5px;
 }
 
-#A_IDE #intro_txt {
-  margin-bottom: -10px;
-  margin-top: -5px;
-  font-size: 40px;
+#A_IDE div {
   text-align: center;
 }
 
@@ -298,9 +311,15 @@ header{
   color: white;
 }
 
-#A_IDE #small_wings_A_IDE{
-  margin-top: 5px;
-  width: 5px;
+#om_header #small_wings_A_IDE{
+  margin-top: -5px;
+  padding-top: 1px;
+  padding-bottom: 11px;
+}
+
+#IDE_text #value_header {
+  text-align: center;
+  font-size: 25px;
 }
 
 #our_journey_title {
@@ -356,12 +375,10 @@ footer a {
   background-color: #0D132D;
   border-radius: 5px;
 }
-#text {
-  color: black;
-}
 
 #value_box_LIFE {
   background-color: #0D132D;
+  width: 900px;
   border-radius: 5px;
   margin: 15px 5px 5px 5px;
   padding: 5px;
@@ -371,10 +388,41 @@ footer a {
   margin-top: 10px;
 }
 
+#IDE_text #abt_content_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#IDE_text #value_box {
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+  margin: 5px 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #0D132D;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F6D28E;
+  border-radius: 10px;
+}
 
 /* iphone 600px */
 /* iPad 900px */
 /* iPad Pro 1200px */
+@media only screen and (max-width: 1350px) {
+  #Algoryphons_header {
+    font-size: 150px;
+  }
+}
 
 
 /* TODO - IPAD */
@@ -426,7 +474,6 @@ footer a {
   }
   #team_number{
     font-size: 20px;
-    margin-top: -50px;
   }
   #small_wings_2{
     margin-top: -50px;
@@ -469,11 +516,6 @@ footer a {
     width: 100%;
     font-size: large;
   }
-  #txt_logo_about_us{
-    margin-top: 10px;
-    width: 100%;
-    font-size: large;
-  }
   #gif_logo {
     margin-top: -200px;
     margin-bottom: -20px;
@@ -483,10 +525,16 @@ footer a {
     margin-bottom: 0px;
     color: #1E2D68;
   }
+  #team_video {
+    width: 325px;
+  }
 }
 
 
 @media only screen and (max-width: 600px) {
+  #team_vid {
+    width: 350px;
+  }
   header #logo_img{
     width: 20px;
   }
@@ -545,7 +593,6 @@ footer a {
     font-size: 40px;
   }
   #team_number{
-    margin-top: -25px;
     font-size: 25px;
   }
   #eg_photos{
@@ -603,5 +650,17 @@ footer a {
   }
   #election {
     width: 350px;
+  }
+  #IDE_logo_main {
+    width: 300px;
+  }
+  #om_header {
+    padding-top: 10px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  #om_header #small_wings_A_IDE{
+    width: 75px;
   }
 }
