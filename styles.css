@@ -438,6 +438,9 @@ footer a {
 
 /* TODO - IPAD */
 @media only screen and (max-width: 900px) {
+  #text {
+    font-size: 25px;
+  }
   #contact_info {
     margin-top: -10px;
     float: center;
@@ -587,6 +590,9 @@ footer a {
 }
 
 @media only screen and (max-width: 600px) {
+  #text {
+    font-size: 20px;
+  }
   #contact_info {
     margin-top: -15px;
     float: center;
