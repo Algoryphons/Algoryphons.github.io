@@ -52,6 +52,7 @@ header{
   font-size: 20px;
 
   display: flex;
+  flex-direction: row-reverse;
 }
 
 #headerDiv #logo {
@@ -437,6 +438,35 @@ footer a {
 
 /* TODO - IPAD */
 @media only screen and (max-width: 900px) {
+  #contact_info {
+    margin-top: -10px;
+    float: center;
+    font-size: 12px;
+  }
+  #logo {
+    text-align: center;
+  }
+  header #logo_img{
+    float: left;
+  }
+  header #theme_logo_img{
+    float: left;
+    margin-top: -3px;
+  }
+  header #EATON_logo_img {
+    float: right;
+    margin-right: 5px;
+    width: 130px;
+  }
+  header #schl_logo_img {
+    float: right;
+  }
+  #buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
   #election {
     width: 100%;
   }
@@ -444,7 +474,8 @@ footer a {
     margin-top: initial;
   }
   #headerDiv{
-    font-size: 10px;
+    font-size: 10px;   
+    display: initial; 
   }
   #eg_photos_div img {
     width: 550px;
@@ -470,7 +501,6 @@ footer a {
     text-decoration: none;
   }
   #headerDiv #insta{
-    padding: 0px;
     border-radius: 3px;
   }
   #Algoryphons_header{
@@ -551,6 +581,11 @@ footer a {
 }
 
 @media only screen and (max-width: 600px) {
+  #contact_info {
+    margin-top: -15px;
+    float: center;
+    font-size: 10px;
+  }
   #team_vid {
     width: 350px;
   }
@@ -564,7 +599,6 @@ footer a {
   }
   #headerDiv {
     width: 100%;
-    font-size: 15px;
   
     display: initial;
   }
@@ -668,9 +702,12 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 400px) {
   #abt_us_txt_div {
     margin-top: 30px;
     font-size: 50px;
+  }
+  #headerDiv {
+    font-size: 9.5px;
   }
 }
