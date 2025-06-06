@@ -9,7 +9,7 @@ a {
 }
 
 img{
-  color: black
+  color: black;
 }
 
 body {
@@ -17,7 +17,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #0D132D;
+  background-color: white;
+  color: black;
 }
 
 main {
@@ -33,6 +34,10 @@ header{
 #Algoryphons_header {
   color: #F6D28E;
 
+}
+#link_logo {
+  padding-left: 2px;
+  padding-top: 3px;
 }
 
 #theme_logo_img {
@@ -88,8 +93,8 @@ header{
 
 #team_number {
   font-size: 50px;
-  margin-top: -125px;
-  color: white;
+  margin-top: -175px;
+  color: black;
 }
 
 #start_div #wing_segment {
@@ -108,15 +113,18 @@ header{
   color: blue;
   text-decoration: underline;
 }
+#start_logo {
+  margin-top: -30px;
+}
+
 #eg_photos{
-  background-color: white;
-  margin-top: 250px;
   font-size:xx-large;
   text-align: center;
 }
 #eg_photos img {
   width: 25%;
   height: auto;
+  border: 2px solid white;
 }
 
 #align_center{
@@ -348,6 +356,9 @@ footer a {
   padding: 10px;
   background-color: #0D132D;
   border-radius: 5px;
+}
+#text {
+  color: black;
 }
 
 
