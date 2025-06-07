@@ -68,6 +68,12 @@ header{
   display: inline-flex;
 }
 
+#our_journey_title #value_header {
+  margin: 5px;
+  width: 100%;
+  color: #0D132D;
+} 
+
 #headerDiv #insta {
   border-bottom-right-radius: 0px;
 }
@@ -75,7 +81,7 @@ header{
 #headerDiv a {
   color: white;
   background-color: #0D132D;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px 5px 5px;
   margin-left: 2px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 15px
