@@ -40,9 +40,6 @@ header{
   padding-top: 3px;
 }
 
-#theme_logo_img {
-  margin-bottom: -10px;
-}
 
 #logo_img {
   margin-bottom: -3px;
@@ -347,6 +344,11 @@ header{
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
+
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #A_IDE div {
@@ -492,10 +494,6 @@ footer a {
   header #logo_img{
     float: center;
   }
-  header #theme_logo_img{
-    float: left;
-    margin-top: -3px;
-  }
   header #EATON_logo_img {
     float: right;
     margin-right: 5px;
@@ -608,6 +606,13 @@ footer a {
 }
 
 @media only screen and (max-width: 600px) {
+  #IDE_logo_main{
+    height: initial;
+  }  
+  #patrons {
+    margin-top: 5px;
+    max-height: 80px;
+  }
   #value_header1 {
     font-size: 25px;
   }
@@ -735,6 +740,6 @@ footer a {
     font-size: 40px;
   }
   #headerDiv {
-    font-size: 9.5px;
+    font-size: 7px;
   }
 }
