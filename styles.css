@@ -44,6 +44,27 @@ header{
   margin-bottom: -10px;
 }
 
+#logo_img {
+  margin-bottom: -3px;
+}
+
+#patrons {
+  margin-top: 5px;
+  max-height: 100px;
+}
+
+#patron_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#patron_grid div {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
 #headerDiv {
   font-family: archivo;
   background-color: white;
@@ -172,8 +193,8 @@ header{
 }
 
 #cells {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -184,7 +205,7 @@ header{
   background-color: white;
   color: #0D132D;
   border-radius: 5px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 #cells #value_box {
@@ -197,12 +218,25 @@ header{
 }
 
 #cells img {
-  margin-top: 5px;
+  max-width: 200px;
+  margin: 5px;
   border-radius: 5px;
+  border: 5px solid white;
+}
+
+#info_box #value_header {
+  font-size: 40px;
 }
 
 #info_box {
   font-size: 15px;
+}
+
+#info_box #abt_us_txt_box_center {
+  background-color: #1E2D68;
+  margin: 5px;
+  margin-top: 10px;
+  max-width: 500px;
 }
 
 #about_main{
@@ -456,7 +490,7 @@ footer a {
     text-align: center;
   }
   header #logo_img{
-    float: left;
+    float: center;
   }
   header #theme_logo_img{
     float: left;
@@ -566,15 +600,10 @@ footer a {
   header #logo_img{
     width: 30px;
   }
-  header #theme_logo_img{
-    width: 30px;
-    margin-bottom: -10px;
-  }
-  header #schl_logo_img {
-    width: 40px;
-  }
-  header #EATON_logo_img {
-    width: 90px;
+
+  #cells #value_box { 
+    display: initial; 
+
   }
 }
 
@@ -694,12 +723,16 @@ footer a {
   #om_header #small_wings_A_IDE{
     width: 75px;
   }
+  #abt_us_txt_div {
+    margin-top: 30px;
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   #abt_us_txt_div {
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 40px;
   }
   #headerDiv {
     font-size: 9.5px;
