@@ -40,7 +40,6 @@ header{
   padding-top: 3px;
 }
 
-
 #logo_img {
   margin-bottom: -3px;
 }
@@ -89,7 +88,8 @@ header{
 #our_journey_title #value_header {
   margin: 5px;
   width: 100%;
-  color: #0D132D;
+  text-align: center;
+  color: #1E2D68;
 } 
 
 #headerDiv #insta {
@@ -474,6 +474,152 @@ footer a {
   width: 20%;
 }
 
+#news_body {
+  background-color: #0D132D;
+  display: flex;
+}
+
+#news_boxes {
+  background-color: #1E2D68;
+  width: 35%;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#blog_boxes {
+  background-color: #1E2D68;
+  width: 65%;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#news_boxes_title {
+  color: #1E2D68;
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+#boxes_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#item_box {
+  height: 100%;
+  background-color: #0D132D;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#item_box #title {
+  background-color: white;
+  color: #1E2D68;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 30px;
+}
+
+#item_box #desc {
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+  text-align: left;
+  max-width: 100%;
+} 
+
+#item_box #date {
+  float: left;
+  font-size: 15px;
+  margin: 5px;
+}
+
+#item_box #link {
+  float: right;
+  font-size: 15px;
+  margin: 5px;
+  color: white;
+}
+
+#item_box #link:hover {
+  color: #F6D28E;
+  text-decoration: underline;
+}
+
+#news_body #text_bx {
+  background-color: #1E2D68;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+#body_text {
+  background-color: #0D132D;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#blog_link {
+  background-color: #0D132D;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#blog_link:hover {
+  color: #F6D28E;
+  text-decoration: underline;
+}
+
+h4 {
+  color: #F6D28E;
+  text-decoration: underline;
+}
+
+#news_item {
+  color: white;
+  font-size: 15px;
+  max-width: 30%;
+  background-color: #0D132D;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  height: 100%;
+}
+
+#news_item_desc {
+  margin: 5px;
+}
+
+#date_news {
+  color: #F6D28E;
+  font-size: 10px;
+  margin: 5px;
+  float: left;
+}
+
+
+/* Scrollbar styles */
+/* For Chrome, Safari and Opera */
 /* width */
 ::-webkit-scrollbar {
   width: 3px;
@@ -500,6 +646,35 @@ footer a {
 
 /* TODO - IPAD */
 @media only screen and (max-width: 900px) {
+
+  #news_body {
+    display: block;
+    padding-top: 1px;
+  }
+
+  #news_boxes {
+    width: auto;
+
+  }
+
+  #blog_boxes {
+    width: auto;
+  }
+
+  #text_bx {
+    width: auto;
+  }
+
+  #news_body #text_bx {
+    background-color: #1E2D68;
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    font-size: 20px;
+    width: 100%;
+  }
+
   #text {
     font-size: 25px;
   }
