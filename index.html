@@ -2,337 +2,576 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="Robotics, robotics, robots, Robots, "/>
+
   <title>Algoryphons - Home</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+
   <link rel="icon" type="image/png" href="graphics/logo.png">
+
 </head>
-<body>
-  <header>
-    <div id="headerDiv">
-      <div id="buttons">
-          <a href="https://firstuk.org">FTC UK</a>
-          <a href="index.html">Home</a>
-          <a href="news.html">News & Blog</a>
-          <a href="team.html">The Team</a>
-          <a href="about.html">About Us & Our Journey</a>
-          <a href="https://gofund.me/e0205bc3">GoFundMe</a>
-          <a href="https://60qajy-dw.myshopify.com/">Merch</a>
-          <a href="https://www.youtube.com/@AlgoryphonsYT">YouTube</a>
-          <a href="https://www.instagram.com/algoryphons/" target="_blank" rel="noopener noreferrer" id="insta">Instagram</a>
-      </div>
-      <div id="logo">
-        <a href="index.html"><img src="graphics/logo_blue.png" alt="Algoryphons Logo" id="logo_img" width="40"/></a>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <div id="start_div">
-      <h1 id="Algoryphons_header">
+<body style="text-align: center;">
 
-        ALGORYPHONS
+  <!-- NAVBAR -->
 
-      </h1>
-
-      <div id="team_number">
-
-        643 | 27896
-
-      </div>      
-
-      <div id="wing_segment">
-
-        <img src="graphics/smaller wings2.png" alt="Algoryphon wing" id="small_wings_2" width="400px"/>
-
-        <img src="graphics/smaller wings1.png" alt="Algoryphon wing" id="small_wings_1" width="400px"/>
-
-        <div id="text">
-          <div>
-          
-            We're more than just a school robotics club, we're are a comunity of like-minded individuals who are passionate about robotics and technology. 
-            We are a team of students from The Gryphon School, Sherborne. 
-            We are a part of the FIRST Tech Challenge UK (FTC), in which we participate in the South-West Regional Qualifiers which take place at Bournemouth University. 
-            <br><br>
-            
-            Our team of hardworking and dedicated students and mentors are what drive the team forward to compete in the FIRST Tech Challenge.
-            We take great pride in our hard work and dedication to help us achieve our goals.
-            <br><br>
-            
-            Bugs or Queries? Contact us at: algoryphons@outlook.com
-            <br><br>
-            
-            If you would like to support us, please consider donating to our <a href="https://gofund.me/e0205bc3">GoFundMe</a> page.
-          
-          </div>
-          
-          <div id = "OAA_text">
-            "Overcome And Adapt"
-          
-          </div>
-        
-        </div>
-        
-        <img src="graphics/logo.png" alt="Algoryphons Logo" id="start_logo" width="150px"/>
-
-        
-          
-          
-
-      </div>
-
-      <div id = "abt_us_txt_box_center">
-          
-        <div id = "value_header_team" style="text-align: center;">
-          
-          PARTNERS & PATRONS
-          
-        </div>
-        
-        <div id = "patron_grid">
-
-          <div>
-            <a href="https://www.gryphon.dorset.sch.uk">
-              <img src="graphics/gryphon-school-logo.png" alt="Gryphon School Logo"  id = "patrons">
-            </a>
-          
-          </div>
-
-          <div>
-            <a href="https://www.sast.org.uk/">
-              <img src="graphics/SAST.png" alt="SAST"  id = "patrons">
-            </a>
-          </div>
-
-          <div>
-            <a href="https://www.sherborneabbey.com/">
-              <img src="graphics/sherb_abbey_logo.png" alt="Sherborne Abbey Logo" id="patrons" style="margin-top: 5px;"/>
-            </a> 
-          </div>
-          
-          <div>
-            <a href="https://firstuk.org">
-              <img src="graphics/FTC_white_logo.png" alt="FTC logo" id="patrons"/>
-            </a> 
-          </div>
-
-          <div>
-            <a href="https://www.eaton.com/gb/en-gb.html">
-              <img src="graphics/eaton.png" alt="eaton logo" id="patrons"/>
-            </a>
-          </div>
-
-          <div>
-            <a href="https://www.asasllc.com/">
-              <img src="graphics/ASAS.png" alt="ASAS Logo" id="patrons"/>
-            </a> 
-          </div>
-
-        </div>
-
-      </div>
-        
-    </div>
-
-
-    <div id = "abt_content">
+  <nav>
+    
+    <a href = "https://www.youtube.com/watch?v=XLp3fYreLLk" target="_blank" class="nav_logos" style="padding: 5px;  margin-right: 0px;">
       
-      <div id = "abt_content_block">
-        
-        <div id = "abt_us_txt_box_center">
+      <img src="graphics/gifs/theme-decode.gif" alt="theme-decode" class = "om_gifs hoverable"> 
+    
+    </a>
+
+    <div class="navbar">
+
+      <div class="nav-links">
+
+        <a href="https://firstuk.org/" target="_blank">
+          FTC UK
+        </a>
+
+        <a href="index.html" class="logo hoverable"><img src="graphics/logo_blue.png" alt=""></a>
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="team.html">
+          Team
+        </a>
+
+        <a href="">
+          About
+        </a>
+
+        <a href="">
+          Team News
+        </a>
+
+        <a href="https://gofund.me/e0205bc3" target="_blank">
+          GoFundMe
+        </a>
+
+      </div>
+
+    </div>
+
+    <a class="nav_logos" href="https://www.instagram.com/algoryphons/" target="_blank">
+      <img class = "hoverable" src="graphics/insta_logo.png" alt="" />
+    </a>
+
+    <a class="nav_logo_yt" href="https://www.youtube.com/@AlgoryphonsYT" target="_blank">
+      <img class = "hoverable" src="graphics/Youtube_logo.png" alt="" />
+    </a>
+
+  </nav>
+
+  <div class="nav_spacer"></div>
+
+  <!-- HERO SECTION -->
+
+  <body>
+    
+    <div class="hero">
+      <h1>ALGORYPHONS</h1>
+
+      <h3 class="slogan">Innovating Robotics. Building Futures.</h3>
+
+      <h2 class="team-num">643 | 27896</h2>
+
+      <img src="graphics/smaller wings1.png" class="hero-wing rotate-left" alt="Left Wing Image" style="float: left;"/>
+      <img src="graphics/smaller wings2.png" class="hero-wing" alt="Right Wing Image" style="float: right;"/>
+
+      <div class="hero-text-div">
+        <p>
+          We're more than just a school robotics club, we're are a comunity of like-minded individuals who are passionate about robotics and technology. We are a team of students from The Gryphon School, Sherborne. We are a part of the FIRST Tech Challenge UK (<a href="https://www.firstinspires.org/robotics/ftc" target="_blank">FTC</a>), in which we participate in the South-West Regional Qualifiers which take place at Bournemouth University.
+        </p>
+
+        <p>
+          Our team of hardworking and dedicated students and mentors are what drive the team forward to compete in the FIRST Tech Challenge. We take great pride in our hard work and dedication to help us achieve our goals.
+        </p>
+
+        <p>
+          Bugs or queries or interest in sponsorship? Contact us at: <a href="mailto:algoryphons@outlook.com">algoryphons@outlook.com</a>
+        </p>
+
+        <p>
+          If you would like to support us, please consider donating to our <a href="https://gofund.me/e0205bc3" target="_blank">GoFundMe</a> page.
+        </p>
+
+        <p style="font-style: italic;">
+          "Overcome And Adapt"
+        </p>
+
+        <img src="graphics/logo.png" alt="algoryphons logo" class="hero-logo"></img>
+
+      </div>
+
+    </div>
+
+    
+    <!-- PARTNERS AND PATREONS -->
+
+    <div class = "partners-patreons">
+
+      <div class="title1">
+        PARTNERS & PATRONS
+      </div>
+      
+      <div class="img_row">
+
+        <a href="https://www.gryphon.dorset.sch.uk" target="_blank">
+          <img class = "hoverable" src="graphics/gryphon-school-logo.png" alt="Gryphon School Logo" style="width: 160px;">
+        </a>
+
+        <a href="https://www.sast.org.uk/" target="_blank">
+          <img class = "hoverable" src="graphics/SAST.png" alt="SAST" style="width: 250px;">
+        </a>
+
+        <a href="https://www.sherborneabbey.com/" target="_blank">
+          <img class = "hoverable" src="graphics/sherb_abbey_logo.png" alt="Sherborne Abbey Logo" style="width: 75px;"/>
+        </a> 
+      
+        <a href="https://firstuk.org" target="_blank">
+          <img class = "hoverable" src="graphics/FTC_logo.png" alt="ftc logo" style="width: 98px;"/>
+        </a> 
+
+        <a href="https://www.eaton.com/gb/en-gb.html" target="_blank">
+          <img class = "hoverable" src="graphics/eaton.png" alt="eaton logo" style="width: 290px;"/>
+        </a>
+
+        <a href="https://www.asasllc.com/" target="_blank">
+          <img class = "hoverable" src="graphics/ASAS.png" alt="ASAS Logo" style="width: 65px;"/>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- HEALINE NEWS -->
+
+    <div class = "headline">
+      <div class="title1">
+        HEADLINE NEWS
+      </div>
+
+      <div class="newsbox">
+
+        <div class = "newstext">
           
-            <div id = "value_header_team" style="text-align: center;">
+          <div class="title2">
+            Great Success At The UK National Finals!
+          </div>
+
+          <div class = "text-column">
+            <div class="textbox1 text-middle">
+              <div>
               
-              OUR MISSION
-              
-            </div>
-
-          </div>
-
-
-        <div id = "A_IDE">
-          <div>
-            <a href="https://www.youtube.com/watch?v=XLp3fYreLLk">
-              <img src="graphics/theme-decode.gif" alt="theme_logo" height = "200px"/>
-            </a>
-          </div>
-
-          <div>
-            <img src="graphics/IDE_Logo_tint.png" alt="IDE_logo" id="IDE_logo_main" height = "200px"/>
-          </div>
-          
-          <div>
-            <a href="https://www.youtube.com/watch?v=zM1wAo4eQzQ">
-              <img src="graphics/theme.gif" alt="theme_logo" height = "200px"/>
-            </a>
-          </div>
-
-        </div>
-
-        
-        <div id = "IDE_text">
-
-          <div id = "abt_us_txt_box_center">
-
-            <div id = "value_header">
-
-              Establishing a Mission for Community Outreach
-
-            </div>
-
-            <p>
-              As a team, we recognize the importance of having a clear and purposeful mission to guide our outreach efforts within the local community. A defined mission not only provides direction but also amplifies our ability to share our identity and goals with those around us. Prior to our formation, STEM-related opportunities were virtually non-existent in our area. Through our participation in the FIRST Tech Challenge (FTC), we’ve discovered a deep passion for STEM, and we are committed to sharing that enthusiasm with others.
-
-            </p>
-
-            <p>
-
-              Community outreach has become a cornerstone of our FTC journey. By engaging with our school and community events, we aim to raise awareness about STEM and inspire the next generation of innovators. These outreach efforts allow us to highlight the possibilities within science, technology, engineering, and mathematics - fields that are increasingly vital in today’s technology-driven world.
-
-            </p>
-
-          </div>
-
-          <div id = "abt_us_txt_box_center" style="text-align: center;">
-
-            <div id = "value_header">
-
-              The Algoryphon IDE Programme
-
-            </div>
-
-            <p>
-            
-              The Algoryphon IDE Programme is our dedicated initiative to inspire and educate young minds in technology-focused subjects. In a world where nearly every industry relies on technological proficiency, we believe it is essential to equip the next generation with the skills and confidence to thrive.
-            
-            </p>
-
-            <p>
-              
-              Our programme is built on three core pillars:
-            
-            </p>
-
-          </div>
-
-          <div id="abt_content_block">
-
-            <div id = "value_box">
-
-              <div id = "value_header">
-
-                I - Inspire
-
-              </div>
-
-              <p>
-                We aim to ignite curiosity and passion for STEM by sharing our own journey and enthusiasm. Through interactive demonstrations and storytelling, we hope to show young people that anyone can succeed in STEM with the right mindset and support.
-              </p>
-
-            </div>
-
-            <div id = "value_box">
-
-              <div id = "value_header">
-
-                D - Design
-
-              </div>
-
-              <p>
-                We encourage creativity and innovation by helping students explore the design process. Whether it’s building simple robots, brainstorming solutions to real-world problems, or participating in hands-on workshops, we want to empower young minds to think boldly and take risks in their ideas.
-              </p>
-
-            </div>
-
-            <div id = "value_box">
-
-              <div id = "value_header">
-                
-                E- Engage
+                As it is the team's rookie year we did not expect to qualify for the UK National Finals, but we did! 
+                And you sure bet we made the most of it! 
+                Although we did not come home with a trophy or award we did come home with a 3D Printer due to completing a competion. 
+                To add to this success the team qualified 4th out of 32 teams within our division (Div 2 - Pacific) which meant we got to choose our alliance partners for the knockout rounds. 
+                We can confidently say we had a great alliance partner with a great team chemistry as we allowed them to focus on specimines whilst we focused on scoring samples in the buckets. 
+                This allowed us to get all the way to the quarter-finals of the whole competition (Semis of Division 2) where the team agonisingly lost 124-125. 
+                However, we are all very proud of ourselves as a team, due to it being our rookie year in FTC we managed to get so far within the competition and redifine what being a team in FTC means!
                 
               </div>
               
-              <p>
-                We foster meaningful connections with our community by organizing and participating in events that promote STEM education. These include coding clubs, robotics showcases, STEM fairs, and collaborative projects with local organisations. By engaging directly with students and educators, we hope to build a lasting community establishment of innovation and learning.
-              </p>
             </div>
 
+            <div class="textbox1 text-middle" style="font-style: italic;">
+
+              <div>
+                
+                "A huge congratulations to our incredible Robotics Team, The 'Algoryphons', who represented The Gryphon at the FIRST Tech Challenge UK National Championships on Thursday and Friday this week. 
+                In their debut year, the team achieved an outstanding 4th place in their division and made it all the way to the quarter finals of the competition – an amazing accomplishment!
+                They also showcased their creativity and teamwork by winning a Social Media challenge, bringing home a brand new 3D printer!
+                We're so proud of what they've achieved – well done to EVERYONE involved." 
+                <br><br>- The Gryphon School <a href="https://www.facebook.com/TheGryphonSchool/posts/a-huge-congratulations-to-our-incredible-robotics-team-the-algoryphons-who-repre/1311095547631266/"> (through Facebook)</a>
+              
+              </div>
+
+            </div>
+
+            <div class="textbox1 text-middle">
+              <div>
+              
+                However looking towards next season we hope that we can make an even bigger impact and go even futher into the competion!! We look forward to seeing you in 25/26. Team 24/25 out!
+            
+              </div>
+
+            </div>
           </div>
 
-          
-
-        </div> 
-
-        <div id="abt_us_txt_box_center" style="text-align: center;">
-          Through the Algoryphon IDE Programme, we hope to leave a lasting legacy - not just as competitors in FTC, but as ambassadors of STEM in our community. Our mission is to ensure that future generations have access to the opportunities and inspiration that helped shape our own journey.
         </div>
-
-      </div>
-
-      <div id = "abt_content_block">
-        
-        <div id = "eg_photos">
-          <div id = "value_header1">
           
-            Highlights From Our 2024-25 Season So Far:
-          
-          </div>
-          
-          <div id="abt_us_txt_box_center">
-            
-            <div id = "value_header">
-            
-              Our Most Proud Achievement: Winning the Connect Award at the South-West Regional Qualifiers! & Qualification to the Nationals
-            
-            </div>
-            
-            <div id="eg_photos_div">
-            
-              <img src="graphics/example_pics/winners_pic.jpg" alt="exemplar_photo_1" id="eg_photo" width="400px"/>
-            
-            </div>
-
-          </div>
-
-          <div id="abt_us_txt_box_center">
-            <div id = "value_header">
-          
-              Other Highlights:
-          
-            </div>
-
-            <div id="eg_photos_div">
-            
-              <img src="graphics/example_pics/eg_photo1.png" alt="exemplar_photo_1" id="eg_photo" width="400px"/>
-            
-              <img src="graphics/example_pics/eg_photo3.png" alt="exemplar_photo_2" id="eg_photo" width="400px"/>
-            
-              <img src="graphics/example_pics/eg_photo5.png" alt="exemplar_photo_3" id="eg_photo" width="400px"/>
-            
-              <img src="graphics/example_pics/eg_photo6.png" alt="exemplar_photo_4" id="eg_photo" width="400px"/>
-
-              <img src="graphics/example_pics/eg_photo4.png" alt="exemplar_photo_5" id="eg_photo" width="400px"/>
-            
-            </div>
-
-          </div>
-        
-        </div>
+        <a href="graphics/news_imgs/driver team photo.jpg" target="_blank"><img src="graphics/news_imgs/driver team photo.jpg" class = "newsimgs hoverable" alt="Headline Image"/></a>
+        <a href="graphics/news_imgs/event_img.jpg" target="_blank"><img src="graphics/news_imgs/event_img.jpg" class = "newsimgs hoverable" alt="Headline Image"/></a>
       
       </div>
+
+    </div>
+
+    <!-- TEAM MISSION BANNER -->
+
+    <div class = "ourmission_banner">
+      
+      <div>
+
+        <img src="graphics/IDE_Logo_tint.png" alt="IDE Logo" style = "width: 500px;">
+
+        <t>OUR MISSION</t>
+
+      </div>
+
+    </div>
+
+    <!-- TEAM MISSION -->
+
+    <div class="ourmission">
+      <div class="title1">
+        THE MISSION
+      </div>
+
+      <div class="textbox1">
+          
+        <p>
+          
+          As a team, we recognize the importance of having a clear and purposeful mission to guide our outreach efforts within the local community. A defined mission not only provides direction but also amplifies our ability to share our identity and goals with those around us. Prior to our formation, STEM-related opportunities were virtually non-existent in our area. Through our participation in the FIRST Tech Challenge (FTC), we’ve discovered a deep passion for STEM, and we are committed to sharing that enthusiasm with others.
+        
+          <br><br>
+        
+          Community outreach has become a cornerstone of our FTC journey. By engaging with our school and community events, we aim to raise awareness about STEM and inspire the next generation of innovators. These outreach efforts allow us to highlight the possibilities within science, technology, engineering, and mathematics - fields that are increasingly vital in today’s technology-driven world. 
+        
+        </p>
+      
+      </div>
+
+      
+      <div class="title1">
+        THE ALGORYPHON IDE PROGRAMME
+      </div>
+
+      <div class="textbox1">
+        The Algoryphon IDE Programme is our dedicated initiative to inspire and educate young minds in technology-focused subjects. In a world where nearly every industry relies on technological proficiency, we believe it is essential to equip the next generation with the skills and confidence to thrive.
+        <br><br>
+        Our programme is built on three core pillars:
+      </div>
+
+      <div class = "grid IDE-pillars">
+
+        <div class = "gridbox hoverable">
+          
+          <div class="title1">
+            INSPIRE
+          </div>
+
+          <div class="gridbox-textbox">
+            
+            <div>
+             
+              We aim to ignite curiosity and passion for STEM by sharing our own journey and enthusiasm. Through interactive demonstrations and storytelling, we hope to show young people that anyone can succeed in STEM with the right mindset and support.
+            
+            </div>
+         
+          </div>
+
+        </div>
+
+        <div class = "gridbox hoverable">
+          
+          <div class="title1">
+            DESIGN
+          </div>
+
+          <div class="gridbox-textbox">
+
+            <div>
+             
+              We encourage creativity and innovation by helping students explore the design process. Whether it’s building simple robots, brainstorming solutions to real-world problems, or participating in hands-on workshops, we want to empower young minds to think boldly and take risks in their ideas.
+           
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class = "gridbox hoverable">
+
+          <div class="title1">
+            ENGAGE
+          </div>
+
+          <div class="gridbox-textbox">
+
+            <div>
+             
+              We encourage creativity and innovation by helping students explore the design process. Whether it’s building simple robots, brainstorming solutions to real-world problems, or participating in hands-on workshops, we want to empower young minds to think boldly and take risks in their ideas.
+           
+            </div>
+
+          </div>
+            
+        </div>
+
+      </div>
+
+      
+      <div class="textbox1"> 
+        Through the Algoryphon IDE Programme, we hope to leave a lasting legacy - not just as competitors in FTC, but as ambassadors of STEM in our community. Our mission is to ensure that future generations have access to the opportunities and inspiration that helped shape our own journey.
+      </div>
+        
     
     </div>
 
-  </main>
+    <!-- 25-26 SEASON SECTION -->
+    <div class="season-box">
+      <img src="graphics/banners/season-banner-top.png" alt="season_banner" class="season-banner page-width">
+
+
+      <div class="title-seasonal season-title-header">
+        FTC SEASON 25-26 | FIRST AGE
+      </div>
+
+      <div class="season-title-header title-seasonal2" style="font-style: normal; padding: 20px">
+        UNCOVER THE FUTURE
+      </div>
+
+      <!-- <img class="seasonal_img" src="graphics/seasonal/shovel.png" alt="shovel img"> -->
+
+      <img src="graphics/gifs/digging.gif" style="width: 150px;">
+
+      <div class="season-title-header title-seasonal3">
+        FROM FIRST
+      </div>
+
+      <div class = "grid">
+        <div class = "gridbox seasonal-gridbox flex">
+
+          <div class="gridbox-textbox">
+            <div>
+
+              <p style="margin: auto;">
+                Every artifact we uncover holds a story. Each tool, each innovation, each work of art connects us to the people and ideas that came before us. Using STEM skills and teamwork, today we can dig deeper into discoveries than ever before.
+                <br><br>
+                Welcome to FIRST® AGE™ presented by Qualcomm, our 2025-2026 robotics season inspired by archaeology. What will you uncover? Join us for an experience for the ages.
+              
+                <br><br><br>
+                Learn more about the theme <a href="https://info.firstinspires.org/first-age" style="color: #d1ac6d" target="_blank">here</a> (FIRST Inspires Website)
+              </p>
+
+            </div>
+
+          </div>
+          
+          
+        </div>
+
+        <div class = "gridbox seasonal-gridbox flex">
+
+          <div class = "gridbox-textbox">
+            
+            <div>
+
+              The range of opportunities that an education in STEM (science, technology, engineering, and math) offers young people is wider than ever. FIRST® helps kids uncover their futures using a winning formula of inspiration, hands-on learning, team-based problem solving, mentorship, and celebration.
+              <br><br>
+              More Than Robots®, we are a life-changing global community of mentors, educators, volunteers, sponsors, parents, and alumni who are dedicated to helping all young people develop the skills, confidence, and resilience to succeed.
+              <br><br>
+              Exciting, hands-on FIRST programs have a proven and lasting impact on STEM learning and interest in students. FIRST participants work as teams in creative learning environments to solve an annual, themed robotics challenge.
+            
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class = "grid">
+        <div class = "gridbox seasonal-gridbox flex" > 
+
+          <div class="gridbox-textbox"> 
+            <img class="seasonal_gif" src="graphics/gifs/theme-decode.gif" alt="shovel_img">         
+          </div>
+
+        </div>
+
+        
+        <div class = "gridbox seasonal-gridbox flex">
+
+          <div class="gridbox-textbox ">
+            
+            <div>
+            
+              FIRST® Tech Challenge (ages 12-18 / grades 7-12) students work together with their mentors to design and build robots to compete in a dynamic and exciting challenge released every September.
+              <br><br>
+              Teams program classroom-scale robots to follow autonomous commands before student drivers take control in two-on-two matches. On and off the field, students develop STEM skills, engage in community outreach, practice engineering innovation, and build confidence to help them succeed.
+              <br><br>  
+              Starting September 6, 2025, FIRST Tech Challenge teams will investigate the power of the world’s artifacts and unlock mysteries in a new challenge, DECODE™ presented by RTX.
+            
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      
+      <img class="rotating rotating-ammonite" src="graphics/seasonal/ammonite.png" alt="ammonite shell">
+
+      <div class="season-title-header title-seasonal3">
+        FROM THE TEAM
+      </div>
+      
+      <div class="grid">
+        
+        <div class="gridbox seasonal-gridbox flex italics justify">
+        
+          "To me FIRST AGE is a new dawn for the team, 
+          a season that brings both new and old to the FIRST Tech Challenge as the Algoryphons delve in, 
+          with a new goal in mind. 
+          We’ve made a name for ourself in our previous season, 
+          but now it’s time to educate our community all about this experience. 
+          To encourage young minds to find interest within STEM. 
+          To improve our brand image, 
+          embracing this season to the full as well as creating memorable moments within the team and our local community. 
+          And I just can’t wait to see what the future holds for the Algoryphons, 
+          bringing on members both new and old to the team, 
+          as well as having our morals boosted by our two mascots, 
+          good old Digby and Foster."
+
+          <br><br>
+          - Rhys | Team Leader
+        
+        </div>
+        
+        <div class="gridbox seasonal-gridbox flex italics justify">
+          "For me, FIRST AGE, more specifically DECODE, brings a new AGE to the team, an evolution to the team.
+          With new members I feel we will be able to futher push the boundries of what is possible from this fantistic team.
+          In out rookie year as a team we certainly introduced ourselves on the national stage, we want to take that further, we want to be prominent and established name.
+          We hope to push furhter and surf the high the team is currently on, to go deeper into the competion then we ever have before, which will be a humongous task. 
+          However, we pride ourselves on our team motto of 'Overcome and Adapt' which as demostrated in our rookie season we can for sure do."
+
+          <br><br>
+          - Harry | Coding Team Lead
+        </div>
+      
+      </div>
+
+      <img class = "hoverable" src = "graphics/gifs/skull chomping.gif" alt = "dinosaur chomping gif" style="width: 10%;">
+
+      <div class="grid padding-sides">
+
+        <div class="gridbox seasonal-gridbox flex justify">
+          The Team believes that the 25/26 Season is going to be a massive year for us,
+          as we look to build on our success from our rookie year and make an even bigger impact within the tech community.
+          We are looking to expand our outreach efforts and inspire even more young people to get involved in STEM.
+          We are also looking to improve our robot design and performance, with the goal of competing at the highest level possible.
+          We are excited to see what the future holds for the Algoryphons and we are ready to take on the challenges that lie ahead.
+          <br><br>
+          We are ready to uncover the future!
+          <br><br>
+          - The Algoryphons Team
+        </div>
+
+        <div class="gridbox seasonal-gridbox flex justify">
+
+          <a href="graphics/team photos/team_photo_london_underground.JPG" target="_blank">
+            <img class="hoverable" style="width: 100%; border-radius: 1.5%;" src="graphics/team photos/team_photo_london_underground.JPG" alt="">
+          </a>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+  </body>
+
 
   <footer>
+
     <div>
-      Member of FTC UK - Proudly Sponsored By <a href="https://www.eaton.com/gb/en-gb.html"> EATON </a>
+      Photos taken by <a href="https://www.instagram.com/hpa.photos" target="_blank">@hpa.photos</a>, Mr Miles & Mr Williams unless otherwise stated.
     </div>
+
     <div>
-      <a href="https://www.instagram.com/algoryphons">Algoryphons</a> - UK643 | FTC 27869 - Est. 2024 - Based at <a href="https://www.gryphon.dorset.sch.uk"> The Gryphon School, Sherborne</a>
+      Member of FTC UK - Proudly Sponsored By <a href="https://www.eaton.com/gb/en-gb.html" target="_blank"> EATON</a> - Website Powered by <a href="https://www.ionos.co.uk" target="_blank"> IONOS</a>
     </div>
+
+    <div>
+      <a href="https://www.instagram.com/algoryphons" target="_blank">Algoryphons</a> - UK643 | FTC 27896 - Est. 2024 - Based at <a href="https://www.gryphon.dorset.sch.uk" target="_blank"> The Gryphon School, Sherborne</a>
+    </div>
+
+    <br>
+
+    <div>
+      Our Wonderful Sponsors & Patrons:
+    </div>
+    
+    <br>
+
+    <div class="img_row">
+
+      <a href="https://www.gryphon.dorset.sch.uk" target="_blank">
+        <img class = "hoverable" src="graphics/gryphon-school-logo.png" alt="Gryphon School Logo" style="width: 160px;">
+      </a>
+
+      <a href="https://www.sast.org.uk/" target="_blank">
+        <img class = "hoverable" src="graphics/SAST.png" alt="SAST" style="width: 250px;">
+      </a>
+
+      <a href="https://www.sherborneabbey.com/" target="_blank">
+        <img class = "hoverable" src="graphics/sherb_abbey_logo.png" alt="Sherborne Abbey Logo" style="width: 75px;"/>
+      </a> 
+    
+      <a href="https://firstuk.org" target="_blank">
+        <img class = "hoverable" src="graphics/FTC_logo - White.png" alt="ftc logo" style="width: 98px;"/>
+      </a> 
+
+      <a href="https://www.eaton.com/gb/en-gb.html" target="_blank">
+        <img class = "hoverable" src="graphics/eaton.png" alt="eaton logo" style="width: 290px;"/>
+      </a>
+
+      <a href="https://www.asasllc.com/" target="_blank">
+        <img class = "hoverable" src="graphics/ASAS.png" alt="ASAS Logo" style="width: 65px;"/>
+      </a>
+
+    </div>
+
+
   </footer>
+
+  <div class = "loader-wrapper">
+    
+    <div class="loader">    
+      <img class = "hoverable" src = "graphics/FTC_logo.png" alt = "FIRST logo" style = "width: 25%;">
+    </div>
+
+    <div class="loader">    
+      <img class = "rotating rotating-ammonite" style = "width: 25%;" src = "graphics/seasonal/ammonite.png" alt = "ammonite shell">
+    </div> 
+
+    <div class="loader">    
+      <img class = "hoverable" src = "graphics/logo_blue.png" alt = "FIRST logo" style = "width: 25%;">
+    </div>
+
+    <div class="loader-bottom">  
+
+      <img class = "hoverable" src = "graphics/SAST.png" alt = "SAST" style = "width: 125px;">
+      <img class = "hoverable" src = "graphics/eaton.png" alt = "eaton logo" style = "width: 145px;"/>
+
+    </div>
+
+  </div>
+
 </body>
-</html>
+</html> 
