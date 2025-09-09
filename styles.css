@@ -1106,12 +1106,12 @@ footer {
 
   h2 {
     color: var(--Gold-Yellow);
-    font-size: 15px;
+    font-size: 18px;
   }
 
   h3 {
     color: var(--Primary-Blue);
-    font-size: 18px;
+    font-size: 15px;
     padding-top: 15px;
   }
 
@@ -1280,6 +1280,10 @@ footer {
 
   .om_gif {
     display: none;
+  }
+
+  .hero h1 {
+    text-shadow: none;
   }
 }
 
