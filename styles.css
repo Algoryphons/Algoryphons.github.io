@@ -231,6 +231,8 @@ nav {
   background-color: var(--White);
   color: var(--Black);
 
+  width: max-content;
+
   margin: 5px;
   margin-right: 5px;
   padding: 5px;
@@ -400,6 +402,25 @@ nav {
   margin: 5px;
 }
 
+.School {
+  width: 160px;
+}
+.SAST {
+  width: 250px;
+}
+.Abbey {
+  width: 75px;
+}
+.ftc {
+  width: 98px;
+}
+.eaton {
+  width: 290px;
+}
+.ASAS {
+  width: 65px;
+}
+
 /* HEADLINE NEWS */
 
 .headline {
@@ -450,9 +471,8 @@ nav {
   background-position: center;
   background-size: 100%;
 
-  width: 100%;
 
-  padding: 300px;
+  padding: 100px;
    
   color: var(--Primary-Blue);
   
@@ -493,11 +513,15 @@ nav {
   padding: 5px;
 }
 
+.ourmission_banner_img {
+  width: 500px;
+}
+
 .om_gifs {
   width: 50px;
 }
 
-.IDE-pillars .hoverable:hover {
+.IDE-pillars .grid .hoverable:hover {
   -ms-transform: scale(1.03); /* IE 9 */
   -webkit-transform: scale(1.03); /* Safari 3-8 */
   transform: scale(1.03);
@@ -574,6 +598,10 @@ nav {
   padding: 5px;
 }
 
+.skull {
+  width: 10%;
+}
+
 .padding-sides {
   padding-left: 25%;
   padding-right: 25%;
@@ -588,10 +616,11 @@ nav {
 .team-gridbox {
   color: var(--White);
 
-  max-width: 90%;
+  max-width: 100%;
 
   margin: auto;
   margin-top: 5px;
+  margin-left: 10px;
   margin-bottom: 5px;
   padding: 10px;
 
@@ -768,10 +797,13 @@ footer {
 
   left: 50%;
   transform: translate(-50%, 0);
-
-  width: 25%;
   
   display: flex;
+}
+
+.loader-bottom img {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* Responsive navbar logo position */
@@ -790,7 +822,7 @@ footer {
     padding: 5px;
     border-radius: 10px;
 
-    width: 550px;
+    font-size: 12px;
 
     display: flex;  
     justify-self: center;
@@ -827,6 +859,14 @@ footer {
 
   }
 
+  .nav-links .logo {
+    align-items: center;
+  }
+
+  .nav-links .logo img{
+    width: 30px;
+  }
+
   h1 {
     color: var(--Secondary-Blue);
     font-size: 90px;
@@ -840,6 +880,406 @@ footer {
   h3 {
     color: var(--Primary-Blue);
     font-size: 30px;
+  }
+
+  .hero-wing {
+    width: 500px;
+    height: 100px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    transition: transform .2s ease-in;
+  }
+
+  .rotating-ammonite {
+    width: 10%;
+    padding: 5px;
+  }
+
+  .padding-sides {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .nav-links .logo {
+    order: -1; 
+  }
+
+  .navbar {
+    background-color: var(--White);
+    color: var(--Black);
+
+    margin: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 10px;
+
+    font-size: 12px;
+
+    display: flex;  
+    justify-self: center;
+
+    box-shadow: 0px 0px 5px var(--Gold-Yellow);
+    border: var(--Gold-Yellow) solid 2px;
+
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+    gap: 10px;
+    align-items: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav-links a {
+    width: fit-content;
+
+    text-decoration: none;
+
+    padding: 4px;
+    border-radius: 7px;
+
+    background-color: var(--Secondary-Blue);
+    color: var(--White);
+
+    transition: transform 0.3s ease-out;
+
+  }
+
+  .nav-links .logo {
+    align-items: center;
+  }
+
+  .nav-links .logo img{
+    width: 30px;
+  }
+
+  h1 {
+    color: var(--Secondary-Blue);
+    font-size: 90px;
+  }
+
+  h2 {
+    color: var(--Gold-Yellow);
+    font-size: 50px;
+  }
+
+  h3 {
+    color: var(--Primary-Blue);
+    font-size: 30px;
+  }
+
+  .hero-wing {
+    width: 300px;
+    height: 75px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    transition: transform .2s ease-in;
+  }
+
+  .rotating-ammonite {
+    width: 10%;
+    padding: 5px;
+  }
+
+  .padding-sides {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .ourmission_banner {
+    background-image: url(graphics/banners/our_mission_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    width: 100%;
+
+    padding: 100px;
+    
+    color: var(--Primary-Blue);
+    
+  }
+
+  .ourmission_banner div {
+    display: flex;
+    border-radius: 5px;
+    border: var(--Gold-Yellow) solid 3px;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .ourmission_banner_img {
+    margin: auto;
+    width: 400px;
+  }
+
+  .ourmission_banner t {
+    font-size: 75px;
+
+    margin: auto;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--Gold-Yellow);
+  
+  }
+
+  .skull {
+    width: 20%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .nav-links .logo {
+    order: -1; 
+  }
+
+  .navbar {
+    background-color: var(--White);
+    color: var(--Black);
+
+    margin: 5px;
+    margin-right: 3px;
+    padding: 5px;
+    border-radius: 10px;
+
+    font-size: 8px;
+
+    display: flex;  
+    justify-self: center;
+
+    box-shadow: 0px 0px 5px var(--Gold-Yellow);
+    border: var(--Gold-Yellow) solid 2px;
+
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+    gap: 3px;
+    align-items: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .nav-links a {
+    width: fit-content;
+
+    text-decoration: none;
+
+    padding: 4px;
+    border-radius: 7px;
+
+    background-color: var(--Secondary-Blue);
+    color: var(--White);
+
+    transition: transform 0.3s ease-out;
+
+  }
+
+  .nav-links .logo {
+    align-items: center;
+  }
+
+  .nav-links .logo img{
+    width: 25px;
+  }
+
+  h1 {
+    color: var(--Secondary-Blue);
+    font-size: 38px;
+  }
+
+  h2 {
+    color: var(--Gold-Yellow);
+    font-size: 15px;
+  }
+
+  h3 {
+    color: var(--Primary-Blue);
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .hero-wing {
+    width: 150px;
+    height: 50px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    transition: transform .2s ease-in;
+  }
+
+  .rotating-ammonite {
+    width: 10%;
+    padding: 5px;
+  }
+
+  .padding-sides {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .ourmission_banner {
+    background-image: url(graphics/banners/our_mission_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    width: 100%;
+
+    padding: 10px;
+    
+    color: var(--Primary-Blue);
+    
+  }
+
+  .ourmission_banner div {
+    display: flex;
+    border-radius: 5px;
+    border: var(--Gold-Yellow) solid 3px;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .ourmission_banner_img {
+    margin: auto;
+    width: 165px;
+  }
+
+  .ourmission_banner t {
+    font-size: 35px;
+
+    margin: auto;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--Gold-Yellow);
+  
+  }
+
+  .skull {
+    width: 20%;
+  }
+
+  .hero-text-div p {
+    font-size: 15px;
+  }
+
+  .title1 {
+    font-size: 25px;
+  }
+
+  .title2 {
+    font-size: 20px;
+  }
+
+  .textbox1 {
+    font-size: 15px;
+  }
+
+  .School {
+    width: 120px;
+  }
+  .SAST {
+    width: 200px;
+  }
+  .Abbey {
+    width: 70px;
+  }
+  .ftc {
+    width: 70px;
+  }
+  .eaton {
+    width: 200px;
+  }
+  .ASAS {
+    width: 65px;
+  }
+
+  .newsbox a {
+    display: none;
+  }
+
+  .newstext {
+    max-width: 100%;
+  }
+
+  .title-seasonal2 {
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  .IDE-pillars .grid {
+    grid-template-columns: auto;
+  }
+
+  .seasonal_gif {
+    background: url(graphics/gifs/theme-decode.gif) no-repeat center center;
+    background-size: 100%;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+
+  .justify {
+    text-align: center;
+  }
+
+  .nav_logos {
+    background-color: var(--White);
+    border-radius: 10px;
+
+    padding: 9px 7px 8px 7px;
+    margin-right: 3px;
+
+    box-shadow: 0px 0px 5px var(--Gold-Yellow);
+    border: var(--Gold-Yellow) solid 2px;
+  }
+
+  .nav_logos img {
+    width: 25px;
+    height: auto;
+
+    margin-bottom: -1px;
+  }
+
+  .nav_logo_yt {
+    background-color: var(--White);
+    border-radius: 10px;
+
+    padding: 7px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    
+    margin-right: 5px;
+
+    box-shadow: 0px 0px 5px var(--Gold-Yellow);
+    border: var(--Gold-Yellow) solid 2px;
+  }
+
+  .nav_logo_yt img {
+    width: 25px;
+    height: auto;
+
+    margin-bottom: -1px;
+  }
+
+  .om_gif {
+    display: none;
   }
 }
 
